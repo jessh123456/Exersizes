@@ -32,7 +32,7 @@ yn = "Y"
 print("Hello! Welcome to the keyboard zoo!")
 print("Here we have a range of different animal. There are giraffes,.")
 Animal = input("If you would like to see an animal press these letters: For a "
-               "giraffe press [G].\n:").upper()
+               "giraffe press [G], For a bird press [B].\n:").upper()
 while yn != "N":
     if Animal == "G":
         print("Welcome to the Giraffe enclosure! this is Harold the giraffe!")
@@ -50,5 +50,14 @@ while yn != "N":
         Animal = leave_or_not(Animal)
     elif Animal == "B":
         print("Welcome to the Bird enclosure")
+        print("     ___// ")
+        print("   / .__. \ ")
+        print("   \  \/  /")
+        print("'__/      \ ")
+        print(" \-/      \)")
+        print("  \_______/")
+        print("_____|__|_______")
+        print("     "  "       ")
+
 
 
